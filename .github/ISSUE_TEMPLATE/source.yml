@@ -1,0 +1,30 @@
+name: Discovery source proposal
+description: Propose a lawful source that improves authorized GitHub coverage
+title: "source: "
+labels: [enhancement]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source/API
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and provenance
+      description: Explain what direct evidence is returned and how a finding links back to it.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Authentication, quotas, terms, and privacy
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Synthetic test plan
+    validations:
+      required: true

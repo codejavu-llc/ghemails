@@ -1,0 +1,10 @@
+.git
+.github
+dist
+ghemails
+coverage.out
+*.txt
+*.json
+*.jsonl
+*.csv
+*.sarif

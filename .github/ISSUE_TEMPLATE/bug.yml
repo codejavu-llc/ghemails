@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a reproducible defect without sensitive target data
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Never include tokens, private repository content, or real harvested personal data.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: Output of ghemails version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Use example.com and synthetic fixtures where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true

@@ -1,0 +1,10 @@
+/ghemails
+/dist/
+/coverage.out
+/*.txt
+/*.json
+/*.jsonl
+/*.csv
+/*.sarif
+/.cache/
+.DS_Store

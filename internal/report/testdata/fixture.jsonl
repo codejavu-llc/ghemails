@@ -1,0 +1,2 @@
+{"type":"summary","schema_version":"1","target":"example.com","mode":"balanced","status":"complete","started_at":"2025-01-01T00:00:00Z","completed_at":"2025-01-01T00:01:00Z","finding_count":1,"sources":[{"name":"code","status":"complete","findings":1,"duration_ns":0}]}
+{"type":"finding","email":"security@example.com","domain":"example.com","classification":"role","syntax_valid":true,"source_count":1,"evidence_count":1,"evidence":[{"source":"github_code","url":"https://github.com/o/r/blob/x/a#L2","line":2}]}
